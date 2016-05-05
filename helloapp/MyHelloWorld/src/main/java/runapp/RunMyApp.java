@@ -4,12 +4,16 @@ public class RunMyApp {
 
 	public static void main(String[] args) {
 		
-		System.out.println(doHello ());
+		System.out.println(doHello()+doWorld());
 
 	}
 	
 	private static String doHello () {
-		return "Magic Hello World !" ;
+		return "Hello, " ;
+	}
+	
+	private static String doWorld () {
+		return "Magic World !" ;
 	}
 
 }
