@@ -9,7 +9,7 @@ public class RunMyApp {
 	}
 	
 	private static String doHello () {
-		return "Hello, " ;
+		return "Hello again, " ;
 	}
 	
 	private static String doWorld () {
